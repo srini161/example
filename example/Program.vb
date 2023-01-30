@@ -5,6 +5,7 @@ Module Program
         Console.WriteLine("Hello World!")
         Console.WriteLine("My name is Srinivas R")
         Console.WriteLine("Iam from Hosur")
-        Console.WriteLine("Northern Lights")
+        Console.WriteLine("Northern Lightssss")
+        Console.WriteLine("Hiiii")
     End Sub
 End Module
