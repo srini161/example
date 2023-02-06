@@ -17,9 +17,12 @@ Module Program
         'Emp.EmployeeDetails()
 
         'Dim EmployeeName(5) As String
-        Dim EmpName As Array = New Array
-        EmpName.EmpName()
-        EmpName.DisplayEmpName()
+        'Dim EmpName As Array = New Array
+        'EmpName.EmpName()
+        'EmpName.DisplayEmpName()
+
+        Dim Array As MultiDimensionArray = New MultiDimensionArray
+        Array.ExOfMMultiDimensionArray()
 
     End Sub
 
