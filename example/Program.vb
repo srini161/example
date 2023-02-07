@@ -11,8 +11,10 @@ Module Program
         'Console.WriteLine("Event:" + vbTab + "Tennis Match")
         'Console.WriteLine("Venue:" + vbTab + "Star Sports Complex")
         'Console.WriteLine("Time:" + vbTab + "4:00 p.m to 6:00 pm")
+
         'Dim AddInt As operators = New operators
         'AddInt.ArthemeticOperations()
+
         'Dim Emp As Employee = New Employee
         'Emp.EmployeeDetails()
 
@@ -21,8 +23,11 @@ Module Program
         'EmpName.EmpName()
         'EmpName.DisplayEmpName()
 
-        Dim Array As MultiDimensionArray = New MultiDimensionArray
-        Array.ExOfMMultiDimensionArray()
+        'Dim Array As MultiDimensionArray = New MultiDimensionArray
+        'Array.ExOfMMultiDimensionArray()
+
+        Dim Word1 As Game = New Game
+        Word1.WordGame()
 
     End Sub
 
