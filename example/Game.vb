@@ -1,4 +1,4 @@
-﻿Imports Syste
+﻿Imports System.Formats.Asn1.AsnWriter
 
 Public Class Game
     Dim Enter As String
@@ -28,6 +28,7 @@ Public Class Game
 
                 If k = "m" Or k = "a" Or k = "s" Or k = "t" Or k = "e" Or k = "r" Then
                     c += 1
+
                 Else
                     c -= 1
                 End If
@@ -37,6 +38,7 @@ Public Class Game
 
                 Console.WriteLine("You have entered a correct word using Master")
                 Score += 1
+                Console.WriteLine("Score is :{0}", Score)
 
             Else
                 Console.WriteLine("Please Enter a Word With Char in Master")
@@ -44,7 +46,7 @@ Public Class Game
             abc = Score
         End While
 
-        Console.WriteLine("Score is :{0}", Score)
+
 
     End Sub
 End Class

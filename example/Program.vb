@@ -26,15 +26,17 @@ Module Program
         'Dim Array As MultiDimensionArray = New MultiDimensionArray
         'Array.ExOfMMultiDimensionArray()
 
-        'Dim Word1 As Game = New Game
-        'Word1.WordGame()
-        Dim p As ByvalByref = New ByvalByref
-        Dim Number As Integer = 12
-        p.Byreference(Number)
-        Console.WriteLine(number)
+        Dim Word1 As Game = New Game
+        Word1.WordGame()
 
-        p.byValue(Number)
-        Console.WriteLine(number)
+
+        'Dim p As ByvalByref = New ByvalByref
+        'Dim Number As Integer = 12
+        'p.Byreference(Number)
+        'Console.WriteLine(number)
+
+        'p.byValue(Number)
+        'Console.WriteLine(number)
 
 
 
