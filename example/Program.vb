@@ -43,9 +43,9 @@ Module Program
         Dim Details As SwapTwoNumbers = New SwapTwoNumbers
         Dim num1 As Integer
         Dim num2 As Integer
-        Console.WriteLine("Enter num1: ")
+        Console.WriteLine("Enter num1: " + vbCrLf)
         num1 = Convert.ToInt32(Console.ReadLine())
-        Console.WriteLine("Enter num2: ")
+        Console.WriteLine("Enter num2: " + vbCrLf)
         num2 = Convert.ToInt32(Console.ReadLine())
         Details.SwapNum(num1, num2)
 
