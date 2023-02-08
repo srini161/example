@@ -36,17 +36,17 @@ Public Class Game
 
             If c = A Then
 
-                Console.WriteLine("You have entered a correct word using Master")
+                Console.WriteLine("Correct")
                 Score += 1
                 Console.WriteLine("Score is :{0}", Score)
 
             Else
-                Console.WriteLine("Please Enter a Word With Char in Master")
+                Console.WriteLine("Incorrect")
+                Score = 0
+                Console.WriteLine("Score is :{0}", Score)
             End If
             abc = Score
         End While
-
-
 
     End Sub
 End Class
