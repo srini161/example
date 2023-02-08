@@ -1,4 +1,8 @@
 ﻿Public Class Factorial
+    Public name As String
+    Public Sub New()
+        name = "Facorial"
+    End Sub
     Public Sub CalculateFactorial()
         Dim num1
         Console.WriteLine("Factorial")
@@ -10,7 +14,7 @@
             Fact = Fact * i
         Next
 
-        Console.WriteLine("Factorial of given number is: {0}", Fact)
+        Console.WriteLine("Factorial of given number is: {0} ", Fact)
 
 
     End Sub

@@ -36,9 +36,18 @@ Module Program
         'p.byValue(Number)
         'Console.WriteLine(number)
 
-        Dim factorial As Factorial = New Factorial
-        factorial.CalculateFactorial()
+        'Dim factorial As Factorial = New Factorial
+        'factorial.CalculateFactorial()
+        'Console.WriteLine("Program name is {0} ", factorial.name)
 
+        Dim Details As SwapTwoNumbers = New SwapTwoNumbers
+        Dim num1 As Integer
+        Dim num2 As Integer
+        Console.WriteLine("Enter num1: ")
+        num1 = Convert.ToInt32(Console.ReadLine())
+        Console.WriteLine("Enter num2: ")
+        num2 = Convert.ToInt32(Console.ReadLine())
+        Details.SwapNum(num1, num2)
 
 
     End Sub
